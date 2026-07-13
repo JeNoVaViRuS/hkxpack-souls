@@ -1,31 +1,22 @@
-# HKXPack version 0.1.6-beta
+# HKXPack version 0.4
 
 HKXPack is a tool to 'pack' and 'unpack' to and from hkx files, which is the Havok compressed file format.
 
-It was made to be used with the hk\_2014.1.0-r1 file format, commonly used in Fallout 4. Given the opportunity, support for hk\_2010.2.0-r1 or other hkx formats may be added.
-
-The output format is intended to be TagXML, output by [figment's hkxcmd](https://github.com/figment/hkxcmd).
-
-~~Some other output formats may be added in the future (e.g. XAF/XMM or FBX for animations), but these formats aren't the focus of the tool.~~
-Note : this behavior now has been moved to [the HKXAnim repository](https://github.com/Dexesttp/hkxanim).
-
 ## Download
 
-You can download the latest release [here](https://github.com/Dexesttp/hkxpack/releases).
+You can download the latest release [here](https://github.com/JeNoVaViRuS/hkxpack-souls/releases).
 
 ## How to
 
-To use this tool, you will need a Java Runtime Environement (jre) for Java 8 or higher.
+Copy the c0000.hkx file into the root folder and then drag-and-drop it onto the .exe.
 
-Don't forget to put quotes around your path if you have a path with spaces !
-
-### Unpack the files
+### Unpack the files manually
 
 Use the command `java -jar hkxpack-cli.jar unpack <filename>.hkx` to extract the file into `<filename>.xml`.
 
 You can also use `java -jar hkxpack-cli.jar unpack <directory>` to extract the directory's HKX files into XML files, under the `out/` folder
 
-### Pack the files
+### Pack the files manually
 
 Use the command `java -jar hkxpack-cli.jar pack <filename>.xml` to pack the file into `<filename>.hkx`.
 
@@ -61,10 +52,6 @@ The compiled jar will then be available under /cli/target/hkxpack-cli.jar
 ### Eclipse
 
 Import this project as a standard Maven project.
-
-### Contribution rules
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for a list of contribution rules.
 
 ## General information
 
