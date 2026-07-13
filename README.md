@@ -1,3 +1,5 @@
+The repo has NOT been updated yet. 2 xml fixes were in injected into the jar and the release can be downloaded.
+
 # HKXPack version 0.4
 
 HKXPack is a tool to 'pack' and 'unpack' to and from hkx files, which is the Havok compressed file format.
